@@ -1,0 +1,6 @@
+<button *ngFor="let product of mProductList" (click)="viewInfo(product.id)">
+  {{product.id}} {{product.name}}
+</button>
+<br />
+
+<router-outlet></router-outlet>
